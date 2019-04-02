@@ -1,0 +1,51 @@
+#menu ul {
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ text-align:center;
+ }
+#menu li {
+ float:left;
+ margin:auto;
+ padding:0;
+ background-color:rgb(255, 2, 2);
+ }
+#menu li a {
+ display:block;
+ width:100px;
+ color:rgb(7, 0, 0);
+ text-decoration:none;
+ padding:5px;
+ }
+#menu li a:hover {
+ color:rgb(255, 0, 0);
+ }
+ #menu ul li ul {
+ display:none;
+ }
+ #menu ul li:hover ul {
+ display:block;
+ }
+#menu li:hover ul li {
+ float:none;
+ }
+ #menu li ul {
+ position:absolute;
+ }
+ #menu {
+ height:50px;
+ }
+ <!--[if !IE]> <-->
+<style type="text/CSS">
+#menu li ul {
+ position:absolute;
+ }
+</style>
+<!--><![endif]-->
+<!--[if IE 8]>
+<style type="text/CSS">
+#menu li ul {
+ position:absolute;
+ }
+</style>
+<![endif]--> 
